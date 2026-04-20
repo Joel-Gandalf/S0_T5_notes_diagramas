@@ -26,7 +26,7 @@ Las mismas entradas en las mismas co­n­di­cio­nes deben conducir a los mismo
 + De­te­r­mi­ni­s­mo
 En la secuencia de pasos del algoritmo, siempre hay una única forma de resolver el problema. Así, los pasos po­s­te­rio­res están cla­ra­me­n­te definidos por los re­su­l­ta­dos in­te­r­me­dios y no son alea­to­rios.
 
-## Diagrama de flujo
+## Diagrama de flujo(flow chart)
 
 Un diagrama de flujo es un diagrama que describe un proceso, sistema o algoritmo informático. 
 
@@ -244,7 +244,7 @@ __Apropiación interna:__ ¿Qué equipo o miembro del equipo será responsable d
     + Análisis.
     + Opiniones de los usuarios.
 
-### Flujo de usuarios
+## Flujo de usuarios(user flow)
 
 Un flujo de usuario (user flow) traza el camino que sigue un usuario genérico a través de un sitio web o una aplicación hasta llegar a un resultado satisfactorio. Suele adoptar la forma de un diagrama de flujo y no se centra en personas concretas.
 
@@ -373,6 +373,33 @@ __Uso para Sitemaps:__
 Mermaid	|Durante el desarrollo y documentación técnica.	|Un diagrama limpio, profesional y "de código".
 Figma	|Durante la fase de diseño y experiencia de usuario (UX).	|Un esquema visual con estilo, formas y colores.
 
+## Conclusiones
+
+Para que el flujo de trabajo sea profesional y lógico, los procesos deben ir de lo abstracto (la idea y la estrategia) a lo concreto (la base de datos y el código).
+
+1. Fase de Estrategia y Priorización  
++ ``MoSCoW``: Es lo primero. Decides qué es vital (Must have), qué es importante pero no vital (Should have), etc. Define el alcance del proyecto.  
++ ``Kanban``: Se configura desde el día 1 para organizar todas las tareas que saldrán de las siguientes fases.
+2. Fase de Experiencia de Usuario (UX)  
++ ``User Journey Map``: Dibujas el camino del usuario (ej: desde que busca un producto hasta que lo compra). Ayuda a entender sus emociones y necesidades.
++ ``Wireframes``: (Faltaba). Son los bocetos en blanco y negro (en Figma) de cada pantalla antes de diseñarlas con colores.
++ ``Sitemap``: Basándote en el Journey Map, defines la jerarquía de las páginas (Inicio, Productos, Nosotros...).
++ ``Flowchart (Diagrama de flujo)``: Aquí detallas la lógica de las decisiones (ej: "Si el usuario está logueado, ve al Carrito; si no, ve al Login").
+3. Fase de Arquitectura Técnica
++ ``ERD (Entity-Relationship Diagram)``: Diseñas la estructura de la base de datos (tablas de usuarios, productos, etc.).
++ ``UML (Diagrama de clases)``: Diseñas cómo se comportará el código y qué funciones tendrán tus objetos/clases.
++ ``API Documentation / Design``: (Faltaba). Defines cómo se comunicará el frontend con el backend (los endpoints).
+4. Fase de Diseño Visual y Desarrollo
++ ``UI Design (Figma)``: (Faltaba). El diseño final con colores, tipografías y componentes reales.
++ ``Pair Programming``: Se aplica durante la escritura del código para asegurar la calidad y el aprendizaje.
+
+__Resumen del Flujo Lógico:__  
++ Planificas (MoSCoW, Kanban).
++ Entiendes al usuario (User Journey).
++ Estructuras la web (Sitemap, Flowchart).
++ Diseñas el esqueleto (Wireframes).
++ Diseñas los datos (ERD, UML).
++ Pintas y programas (UI Design, Pair Programming)
 
 ## Markdown atajos de teclado
 
