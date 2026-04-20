@@ -37,14 +37,24 @@ Se usan para documentar, estudiar, planificar, mejorar y comunicar procesos que 
 + Comnucación más rápida.
 
 ### Simbología
-+ ``Terminador/Terminal``(Terminator): Puntos de inicio o fin o resultados potenciales.
-+ ``Simbolo de proceso``(Process): Representa un proceso acción o función.
-+ ``Rombo de decisiones``(Decision): Toma de decisiones o evaluación de condición.
-+ ``Simbolo de demora``(): Transcurso de tiempo durante un proceso.
-+ ``Simbolo de documento``(Document): Entrada o salida de un documento.
-+ ``Datos``(Data): De entrada o salida.
-+ ``Base de datos``(Data base):
-+ ``Enlace fuera de página``(Off-Page link): Conecta diagramas.
++ ``Terminador/Terminal``(Terminator): Puntos de inicio o fin o resultados potenciales.  
+![symbol terminator](/resources/img/flowchart-symbol-terminator.png)
++ ``Simbolo de proceso``(Process): Representa un proceso acción o función.  
+![alt text](/resources/img/flowchart-symbol-process.png)
++ ``Rombo de decisiones``(Decision): Toma de decisiones o evaluación de condición.  
+![alt text](/resources/img/flowchart-symbol-decision.png)
++ ``Simbolo de demora``(delay): Transcurso de tiempo durante un proceso.  
+![alt text](/resources/img/flowchart-symbol-delay.png)
++ ``Simbolo de documento``(Document): Entrada o salida de un documento.  
+![alt text](/resources/img/flowchart-symbol-document.png)
++ ``Datos``(Data): De entrada o salida.  
+![alt text](/resources/img/flowchart-symbol-data.png)
++ ``Base de datos``(Data base):  
+<img src="resources/img/database-flowchart-symbol.png" alt="symbol database" style="width: 25%; height: auto;"> 
++ ``Símbolo del conector``(connector): El flujo continua donde hay un simbolo idéntico que contiene la misma letra.  
+![alt text](/resources/img/flowchart-symbol-on-page-reference.png)
++ ``Enlace fuera de página``(Off-Page link): Conecta diagramas.  
+![alt text](/resources/img/flowchart-symbol-off-page-reference.png)
 + ``Conectores``: Indican la dirección o secuencia de un proceso.
 + ``Carriles de proceso``: En ellos se ubican el resto para determinar procesos concretos o responsabilidades.
 
