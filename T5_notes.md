@@ -377,19 +377,30 @@ Figma	|Durante la fase de diseño y experiencia de usuario (UX).	|Un esquema vis
 
 Para que el flujo de trabajo sea profesional y lógico, los procesos deben ir de lo abstracto (la idea y la estrategia) a lo concreto (la base de datos y el código).
 
-1. Fase de Estrategia y Priorización  
-+ ``MoSCoW``: Es lo primero. Decides qué es vital (Must have), qué es importante pero no vital (Should have), etc. Define el alcance del proyecto.  
-+ ``Kanban``: Se configura desde el día 1 para organizar todas las tareas que saldrán de las siguientes fases.
-2. Fase de Experiencia de Usuario (UX)  
+1. Fase de Experiencia de Usuario (UX)
+
 + ``User Journey Map``: Dibujas el camino del usuario (ej: desde que busca un producto hasta que lo compra). Ayuda a entender sus emociones y necesidades.
-+ ``Wireframes``: (Faltaba). Son los bocetos en blanco y negro (en Figma) de cada pantalla antes de diseñarlas con colores.
 + ``Sitemap``: Basándote en el Journey Map, defines la jerarquía de las páginas (Inicio, Productos, Nosotros...).
 + ``Flowchart (Diagrama de flujo)``: Aquí detallas la lógica de las decisiones (ej: "Si el usuario está logueado, ve al Carrito; si no, ve al Login").
-3. Fase de Arquitectura Técnica
-+ ``ERD (Entity-Relationship Diagram)``: Diseñas la estructura de la base de datos (tablas de usuarios, productos, etc.).
++ ``Wireframes``: (Faltaba). Son los bocetos en blanco y negro (en Figma) de cada pantalla antes de diseñarlas con colores.
+Arquitectura Técnica
++ ``UI Design (Figma)``: (Faltaba). El diseño final con colores, tipografías y componentes reales.
+
+3. Fase de Estrategia y Priorización
+
++ ``Historias de usuario``: unidad de trabajo escrita de forma sencilla que describe una funcionalidad desde el punto de vista del usuario final, qué quiere hacer alguien y para qué.
++ ``Criterios de aceptación``: Reglas para dar por terminada cada historia.
++ ``Kanban``: Configuración del tablero para organizar el desarrollo.
++ ``MoSCoW``: Decides qué es vital (Must have), qué es importante pero no vital (Should have), etc. Define el alcance del proyecto.  
+
+2. Fase de Experiencia de Usuario (UX)  
+
 + ``UML (Diagrama de clases)``: Diseñas cómo se comportará el código y qué funciones tendrán tus objetos/clases.
++ ``ERD (Entity-Relationship Diagram)``: Diseñas la estructura de la base de datos (tablas de usuarios, productos, etc.).
 + ``API Documentation / Design``: (Faltaba). Defines cómo se comunicará el frontend con el backend (los endpoints).
+
 4. Fase de Diseño Visual y Desarrollo
+
 + ``UI Design (Figma)``: (Faltaba). El diseño final con colores, tipografías y componentes reales.
 + ``Pair Programming``: Se aplica durante la escritura del código para asegurar la calidad y el aprendizaje.
 
@@ -401,6 +412,13 @@ __Resumen del Flujo Lógico:__
 + Diseñas los datos (ERD, UML).
 + Pintas y programas (UI Design, Pair Programming)
 
+__Básico:__
+
++ Sitemap
++ Wireframe
++ Mockup
++ kanban
+
 ## Markdown atajos de teclado
 
 crtl + shift + o (lista de headers)  
@@ -408,6 +426,7 @@ shift + alt + derecha/izquierda (selección de bloques enteros)
 shift + alt + arriba/abajo (copia la selección y la pega arriba o abajo)
 
 F2 (Renombrar título con enlace, atomáticamente se actualizan los links)
+
 
 
 
