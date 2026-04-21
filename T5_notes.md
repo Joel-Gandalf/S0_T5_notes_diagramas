@@ -84,6 +84,8 @@ __Tipos__
 
 + Diagrama de flujo de datos (DFD): traza el flujo de información de cualquier sistema o proceso.
 
+Webgrafía:
+[Lucidchart diagrama de flujo](https://www.lucidchart.com/pages/es/tutorial/diagrama-de-flujo)
 
 ## Sitemap
 
@@ -185,6 +187,8 @@ Además, revisar el mapa del sitio puede ayudar a identificar oportunidades de m
 
 Se puede utilizar herramientas como ``Miro`` para hacer un seguimiento de los cambios y colaborar con otros en las actualizaciones.
 
+Webgrafía: 
+[miro sitemap](https://miro.com/es/diagrama/que-es-sitemap/)
 
 ## User journey map
 
